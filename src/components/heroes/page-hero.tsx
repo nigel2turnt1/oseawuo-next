@@ -65,7 +65,7 @@ export function PageHero({
             </div>
             {details && <div className="mt-8 border-t border-white/15 pt-6">{details}</div>}
           </div>
-          <figure className="hero-visual relative min-w-0 overflow-hidden rounded-3xl border border-white/15 bg-navy-light shadow-[0_24px_64px_rgba(0,0,0,0.2)]">
+          <figure className="hero-visual relative hidden min-w-0 md:block overflow-hidden rounded-3xl border border-white/15 bg-navy-light shadow-[0_24px_64px_rgba(0,0,0,0.2)]">
             <div className="relative aspect-[4/3] sm:aspect-[16/10] lg:aspect-[4/3]">
               <Image src={image} alt={imageAlt} fill priority className="object-cover" sizes="(min-width: 1280px) 540px, (min-width: 1024px) 45vw, 100vw" />
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-navy/40 to-transparent" />
@@ -80,3 +80,4 @@ export function PageHero({
     </section>
   );
 }
+

@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail, Phone, MapPin } from "lucide-react";
 
-
 import { NAV_LINKS, SITE_CONFIG } from "@/lib/site-config";
 import { PRACTICE_AREAS } from "@/lib/data";
 
@@ -109,5 +108,3 @@ export function SiteFooter() {
     </footer>
   );
 }
-
-

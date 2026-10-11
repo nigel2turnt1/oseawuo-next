@@ -26,4 +26,3 @@ export function PracticeAreaCard({ area }: { area: PracticeArea }) {
     </Link>
   );
 }
-

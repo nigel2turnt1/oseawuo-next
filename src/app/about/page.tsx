@@ -92,14 +92,6 @@ export default function AboutPage() {
             </div>
             <div className="flex items-center gap-5 rounded-[2rem] bg-secondary/60 p-8">
               <span className="font-heading text-3xl font-semibold text-navy">
-                17
-              </span>
-              <span className="text-xs uppercase tracking-widest text-muted-foreground">
-                Legal Professionals
-              </span>
-            </div>
-            <div className="flex items-center gap-5 rounded-[2rem] bg-secondary/60 p-8">
-              <span className="font-heading text-3xl font-semibold text-navy">
                 9+
               </span>
               <span className="text-xs uppercase tracking-widest text-muted-foreground">
@@ -217,4 +209,3 @@ export default function AboutPage() {
     </>
   );
 }
-

@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import { PageHero } from "@/components/heroes/page-hero";
 
-
 import { PracticeAreasExplorer } from "@/components/practice-areas-explorer";
-
 
 export const metadata: Metadata = {
   title: "Practice Areas",
@@ -32,5 +30,3 @@ export default function PracticeAreasPage() {
     </>
   );
 }
-
-

@@ -11,11 +11,6 @@ export const SITE_CONFIG = {
   mapCoordinates: { lat: 5.669, lng: -0.016 },
   mapEmbedSrc: "https://maps.google.com/maps?q=5.669,-0.016&z=16&output=embed",
   mapLink: "https://www.google.com/maps?q=5.669,-0.016",
-  socialLinks: {
-    facebook: "#",
-    linkedin: "#",
-    twitter: "#",
-  },
 } as const;
 
 export const NAV_LINKS = [

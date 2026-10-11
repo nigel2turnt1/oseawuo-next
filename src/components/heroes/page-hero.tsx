@@ -80,4 +80,3 @@ export function PageHero({
     </section>
   );
 }
-

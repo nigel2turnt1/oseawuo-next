@@ -12,7 +12,6 @@ const inter = Inter({
   display: "swap",
 });
 
-
 export const metadata: Metadata = {
   title: {
     default: `${SITE_CONFIG.name} | Barristers & Solicitors, Tema, Ghana`,
@@ -38,4 +37,3 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     </html>
   );
 }
-

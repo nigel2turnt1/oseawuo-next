@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail, Phone, MapPin } from "lucide-react";
 
-import { FacebookIcon, LinkedinIcon, TwitterIcon } from "@/components/social-icons";
+
 import { NAV_LINKS, SITE_CONFIG } from "@/lib/site-config";
 import { PRACTICE_AREAS } from "@/lib/data";
 
@@ -33,22 +33,7 @@ export function SiteFooter() {
               excellence and results for clients across Ghana and beyond
               since {SITE_CONFIG.founded}.
             </p>
-            <div className="flex items-center gap-3 pt-2">
-              {[
-                { icon: FacebookIcon, href: SITE_CONFIG.socialLinks.facebook, label: "Facebook" },
-                { icon: LinkedinIcon, href: SITE_CONFIG.socialLinks.linkedin, label: "LinkedIn" },
-                { icon: TwitterIcon, href: SITE_CONFIG.socialLinks.twitter, label: "Twitter" },
-              ].map(({ icon: Icon, href, label }) => (
-                <a
-                  key={label}
-                  href={href}
-                  aria-label={label}
-                  className="flex size-9 items-center justify-center rounded-full border border-white/10 text-cool-gray transition-colors hover:border-gold/50 hover:text-gold"
-                >
-                  <Icon className="size-4" />
-                </a>
-              ))}
-            </div>
+
           </div>
 
           <div>
@@ -124,3 +109,5 @@ export function SiteFooter() {
     </footer>
   );
 }
+
+
